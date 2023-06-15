@@ -1,7 +1,6 @@
 package com.bridgelabz;
 
 public class GreaterOrLess {
-
     public static void main(String[] args) {
 
         /*
@@ -25,14 +24,14 @@ public class GreaterOrLess {
         /*
          * second line point 1
          */
-        double x3 = 1;
-        double y3 = 1;
+        double x3 = 2;
+        double y3 = 2;
 
         /*
          * second line point 2
          */
-        double x4 = 5;
-        double y4 = 5;
+        double x4 = 4;
+        double y4 = 4;
 
         /*
          * Calculate second line distance between two points
@@ -42,13 +41,13 @@ public class GreaterOrLess {
 
         System.out.println("Distance between two points :" + secondLineDistance);
         /*
-         * checking two line are equal or not
+         * checking greater or less then line
          */
-        if(firstLineDistance==secondLineDistance) {
-            System.out.println("Two lines are equal");
+        if(firstLineDistance>secondLineDistance) {
+            System.out.println(firstLineDistance+" is greater and "+secondLineDistance+" is less");
         }
         else {
-            System.out.println("Two lines are not equal");
+            System.out.println(secondLineDistance+" is greater and "+firstLineDistance+" is less");
         }
 
     }
